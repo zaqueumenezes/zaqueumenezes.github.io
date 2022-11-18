@@ -1,110 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>curriculo html</title>
-    <style>
-        body {
-            border: 1px solid black
-        }
-
-        main,
-        header {
-            margin: 0px 200px 0px 200px
-        }
-
-        header span {
-            vertical-align: 40px
-        }
-
-        img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-        }
-
-        .topico {
-            color: crimson;
-            font-size: large;
-            margin-top: 50px;
-            list-style-type: none;
-        }
-
-        .dados {
-            font-size: medium;
-            color: black;
-            margin-top: 25px;
-        }
-
-        .campo {
-            font-weight: bold;
-        }
-
-        .campo::after {
-            content: ":";
-        }
-
-        .valor {
-            font-style: italic;
-        }
-    </style>
-
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx' crossorigin='anonymous'>
 </head>
 
-<body>
-
-    <!--header>h1>img>span{Zaqueu Aquino Carvalho Menezes}-->
+<body class="container.pt-5">
 
     <header>
-        <h1><img src="/img/imgzaca.jpeg" alt=""> <span><b> Zaqueu de Aquino Carvalho Menezes</b></span></h1>
+        <div class="row">
+            <section>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1> Inicio <img src="" alt=""><span> Bem vindo a minha pagina </span></h1>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <nav class="row">
+                                    <section class="col">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="index.html"
+                                                    class="btn btn-outline-success active">Inicio</a></li>
+                                            <li class="list-inline-item"><a href="curriculo.html"
+                                                    class="btn btn-outline-success">Curriculo</a></li>
+                                            <li class="list-inline-item"><a href="contato.html"
+                                                    class="btn btn-outline-success">Contato</a></li>
+                                        </ul>
+                                    </section>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </header>
 
     <main>
-        <ul>
-            <li class="topico">informações pessoais
-                <ul class="dados">
-                    <section><span class="campo">Endereço</span><span class="valor"> Rua albino osvaldo clasen, perto da
-                            unifique - Blumenau/SC-Brasil CEP: 89031440</span><br></section>
-                    <section><span class="campo"> Telefone</span><span class="valor"> +5547991450229</span><br>
-                    </section>
-                    <section><span class="campo"> Email</span><span class="valor"> menezeszaqueu@hotmail.com</span><br>
-                    </section>
-                </ul>
-            </li>
-            <li class="topico"> informações acadêmicas
-                <ul class="dados">
-                    <section><span class="campo"> Grau de escolaridade</span><span class="valor"> Ensino Médio
-                            completo</span><br></section>
-                    <section><span class="campo"> Curso </span><span class="valor"> HTML5</span><br></section>
-                    <section><span class="campo"> Cursando</span><span class="valor"> Fullstack</span><br></section>
-                </ul>
-            </li>
-            <li class="topico"> Informações Profissionais
-                <ul class="dados">
-                    <section><span class="campo"> Telecomunicação OI</span><span class="valor"> Operador de
-                            DG</span><br></section>
-                    <section><span class="campo"> Bertolini Transportes</span><span class="valor"> Recepicionista,
-                            Operador de Tombador, Balanceiro</span><br></section>
-                    <section><span class="campo"> AutoPosto7</span><span class="valor"> Freentista</span><br></section>
-                </ul>
-            </li>
-            <li class="topico"> informações Adicionais
-                <ul class="dados">
-                    <section><span class="campo"> Disponibilidade para viajar</span><span class="valor"> Total
-                            Disponibilidade</span><br></section>
-                    <section><span class="campo"> Disponibilidade para mudar de estado</span><span class="valor">
-                            Somente para alguns estados</span><br></section>
-                    <section><span class="campo"> Disponibilidade de vida em outros paises</span><span class="valor">
-                            Com investimento em lingua inglesa da empresa, disponibilidade total</span><br></section>
-                </ul>
-            </li>
-        </ul>
+        <div class="row pt-3">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body vh-100">
+                        <div class="row">
+                            CONTEUDO AQUI
+                        </div>
+
+
+                    </div>
+                    <foo>
+                        <div class="card-footer"></div>
+                    </foo>
+                </div>
+            </div>
+        </div>
     </main>
 
-
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa'
+        crossorigin='anonymous'></script>
 </body>
 
 </html>
